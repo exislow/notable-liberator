@@ -15,7 +15,6 @@ path_in: str = os.path.join(path_base, "in")
 path_in_notes: str = os.path.join(path_in, "notes")
 path_in_attachments: str = os.path.join(path_in, "attachments")
 path_out: str = os.path.join(path_base, "out")
-filename: str = os.path.join(path_in_notes, "Applikationshinweise Vitesco (Conti).md")
 
 
 def meta_parse(body: str) -> MetaInfo:
